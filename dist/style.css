@@ -221,9 +221,13 @@ i {
   }
 
  .text-logo h1 {
-  
+  margin-top: -300px;
     font-size: 100px;
     color: #00BFFF;
+  }
+
+  .hero h1{
+    margin-top: -260px;
   }
 
   .text-logo p {
@@ -359,9 +363,14 @@ i {
   padding: 54px 14px;
 }
 
-.services-content h2 {
+.services-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-content h2{
   text-transform: uppercase;
-  text-align: center;
   font-size: 38px;
   margin-bottom: 14px;
 }
@@ -456,6 +465,8 @@ i {
   cursor: default;
 }
 
+
+
 .divmaps{
   background-color: #FFFFFFF6;
   color: #232224;
@@ -464,6 +475,9 @@ i {
   align-items: center;
   justify-content: center;
   padding: 54px 14px;
+}
+.divmaps  h3{
+  margin-top: -40px;
 }
 
 .mapslock{
@@ -481,6 +495,7 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .maps img{
